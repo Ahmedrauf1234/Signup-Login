@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+<body style="background-color: #647488">
+    <div class="welcome-css" style="background-color: #737e8c; margin: auto; width: 50%; padding: 10px; height: 500px;">
+    <h1  style="margin-top: 100px;" class=" text text-center font-bold text-2xl mt-5">Welcome User <script>document.write(localStorage.getItem('Email'))</script> </h1>
+    <div style="margin-top: 100px;" class="m-auto text-center">
+        <button  onclick="logout()" class=" btn border-2 rounded hover:bg-slate-700 hover:text-white font-bold border-solid border-gray-700 p-1 w-[100px]" >Logout</button>
+    </div>
+
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
